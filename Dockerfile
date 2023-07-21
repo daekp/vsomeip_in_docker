@@ -25,7 +25,6 @@ RUN apt-get update && apt-get install -y \
 RUN python3 -m pip install --upgrade pip
 RUN pip3 install scikit-build; pip3 install cmake
 
-
 # ======= JAVA INSTALL =======
 RUN apt-get install -y openjdk-8-jdk openjdk-8-jre; 
 
